@@ -1,0 +1,268 @@
+body{
+width: 100%;
+height: 100%;
+font-family: 'Poppins', sans-serif;
+color: white;
+
+
+background-repeat: no-repeat;
+background-image: url(https://belaltheme.com/tm/Bindas/Bindas/images/1.jpg);
+background-size: cover;
+}
+nav{
+    background-color: #5800a0;
+    opacity: 0.7;
+   
+}
+
+#stikyHeader{
+  width:100% ;
+  height:100%;
+  background-color:#5800a0;
+  display: flex;
+  margin-left:0;
+  margin-right: 0;
+  margin-top: 0;
+ 
+   padding-bottom: 1%;
+  position: absolute;
+  opacity: 0.7;
+
+
+}
+
+
+.hero-section{
+    position: relative;
+    top: 100px;
+  margin:0px 125px;
+  }
+  @media(max-width:1101px){
+    .hero-section{
+      display: block;
+     
+    }
+  }
+
+.hero-section h1{
+    width: 100%;
+    font-weight: 800;
+    font-size: 44px;
+
+    padding-bottom: 10px;
+}
+
+.hero-section p{
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: block;
+
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:400 ; 
+}
+@media(max-width: 1102px) {
+    .hero-section h1{
+    
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 200; 
+    }
+  }
+.review{
+    background-color: #fed73e;
+    border-radius: 30px;
+    padding: 30px 20px;
+    padding-bottom: 24px;
+    text-align: center;
+    z-index: 1;
+    padding-top: 34px;
+}
+@media(max-width:1201px){
+.review{
+    display: none;
+}
+
+}
+.review h2{
+    box-sizing: border-box;
+    font-size: 44px;
+    line-height: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+}.review span{
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase; 
+}
+.review .star{
+    display: flex;
+   list-style: none;
+   background-color: white;
+    padding: 4px 14px;
+    border-radius: 34px;
+    color: #ffab19;
+    margin-bottom: 12px;
+}
+.review .star li{
+    color:rgb(255, 171, 25);
+    font-size: 23px;
+}
+.btn{
+    margin-top: 30px;
+    width: 150px;
+ padding: 15px;  
+background-color:rgb(0, 195, 137);	
+color: white;
+border:none;
+font-weight: bold;
+}
+.elementor-section-elementor-bottom{
+    position: relative;
+   top: 400px;
+   
+    display: flex;
+    list-style: none;
+    background-color: white;
+     padding: 4px 14px;
+     margin-bottom: 12px;
+     color: black;
+}
+.elementor-section-elementor-bottom .elementor-bottom {
+    display: flex;
+    border-bottom: 5px solid#DDD;
+     margin-top: 20px;
+
+   
+}
+.elementor-section-elementor-bottom .elementor-bottom li{
+  
+margin: 40px ;
+list-style: none;
+font-size: 20px;
+font-weight: bold;
+color: rgb(6, 6, 91) ;
+
+}
+.info-busines{
+    width: 100%;
+    height: 100%;
+  
+    color: rgb(6, 6, 91);
+    padding:10px;
+    margin: 0px 20px;
+    top: 140%;
+
+   position: absolute;
+
+}
+.info-busines h3{
+  width: 40%;
+ padding-top: 100px;
+
+  font-weight:bold;
+    color: rgb(0, 195, 137);
+    border-bottom: 1px solid #DDD;
+}
+.info-busines h2{
+font-size: 52px;
+font-weight: 600;
+
+
+   padding-bottom: 25px;
+   padding-top: 70px;
+}
+.info-busines .col ul{
+list-style: none;
+margin-top: 90px;
+padding: 5px;
+}
+.info-busines .col ul a{
+    color:rgb(0, 195, 137);
+
+}
+.performance{
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  
+}
+.performance .col{
+    border-right:1px solid #999;
+    padding: 20px;
+}
+.performance  h1{
+font-size: 24px;
+font-weight: bold;
+margin-top: 50px;
+
+}
+.performance .col h4{
+    font-size: 16px;
+  
+}
+.performance .col span{
+    font-size: 64px;
+    font-weight: 1;
+    font-weight: 600;
+    color: rgb(0, 195, 137);
+}
+  
+.services{
+    width: 100%;
+    height: 120%;
+ 
+    background-color:#eff;
+
+    color: rgb(6, 6, 91);
+    margin: 0px 20px;  
+    position: absolute;
+    top: 320%;
+
+    
+}
+ .row .col .pictures{
+    border-style: solid;
+    border-width: 6px 6px 6px 6px;
+    border-color: #00C389;
+    border-radius:100% 100% 100% 100%;
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block;
+  
+}
+.row .col .pictures img{
+    width:100%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.contener-services h3{
+    width: 40%;
+    padding-top: 100px;
+   
+       font-weight:bold;
+       color: rgb(0, 195, 137);
+       border-bottom: 1px solid #DDD;
+}
+.contener-services h1{
+    font-size: 52px;
+    font-weight: 600; 
+}
+.contener-services h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+   
+
+
+
+
+
+
